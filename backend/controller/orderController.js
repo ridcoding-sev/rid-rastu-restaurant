@@ -2,8 +2,7 @@ import OrderModel from "../models/orderModle.js";
 import UserModel from "../models/userModels.js";
 import Stripe from "stripe";
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
-
+https://github.com/ridcoding-sev/rid-rastu-restaurant/edit/main/backend/controller/orderController.js
 // ==========================================
 // PLACE USER ORDER
 // ==========================================
