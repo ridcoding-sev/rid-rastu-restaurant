@@ -2,7 +2,9 @@ import OrderModel from "../models/orderModle.js";
 import UserModel from "../models/userModels.js";
 import Stripe from "stripe";
 
-https://github.com/ridcoding-sev/rid-rastu-restaurant/edit/main/backend/controller/orderController.js
+const stripe = new Stripe(
+  "sk_test_51Tc6URH1Qkh7alUsWlPyaUAWmnr7h9vqGC4OFdEmPgCkeSi1qcMY6wxehsImZDLikeiNOVoBb5SsHz8Vodtnphsg00oKJDqVuM",
+);
 // ==========================================
 // PLACE USER ORDER
 // ==========================================
