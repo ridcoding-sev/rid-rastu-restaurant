@@ -49,11 +49,11 @@ const cartArray = (Food_item || []).filter(
 
                 {/* Image + Info */}
                 <div className="flex items-center gap-4 w-full sm:w-auto">
-                 <img
-                   src={backendUrl + "/images/" + item.image}
-                  alt={item.name}
-                   className="w-20 h-20 rounded-lg object-cover"
-                   />
+             <img
+                    src={item.image}
+                    alt={item.name}
+                    className="w-20 h-20 rounded-lg object-cover"
+                  />
 
                   <div>
                     <h3 className="font-semibold text-gray-800">
